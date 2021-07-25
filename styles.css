@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-image: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  font-size: 16px;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+a{
+  display: inline-block;
+  margin: 2.5% 1%;
+  text-decoration: none;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+}
+h2{
+  margin: 2.5% auto 1%;
+}
+h1, h2, h4{
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+p{
+  width: 40%;
+  margin: auto;
+}
+section{
+  margin: 50px 100px 50px 0;
+}
+section p{
+  width: 80%;
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 50px;
+}
+section h4{
+  text-align: left;
+  margin-bottom: 10px;
+}
+div{
+  display: inline-block;
+}
+footer{
+  /* background-color: hsl(210, 10%, 33%); */
+  margin: 50px 0 0;
+  position: relative;
+}
+footer div{
+  float: right;
+  margin: 40px 150px 17px;
+}
+footer div img{
+  margin: auto 10px;
+}
+.images{
+  width: 100%;
+  margin: 100px auto;
+}
+.images img{
+  margin: auto 3% ;
+}
+.device-img{
+  margin-top: 70px;
+}
+.comp-right {
+    margin: 70px 0 150px 20px;
+}
+.comp-img {
+    float: left;
+    margin: 10px 50px 10px 0;
+    width: 50%;
+}
+.logo{
+margin-top: 10%;
+}
+.snippets{
+  width: 30%;
+  margin: 50px 0;
+}
+.snippets p{
+  width: 80%;
+  text-align: center;
+}
+.footer-img{
+  height: 50%;
+  position: absolute;
+  left: 100px;
+  top: 30px;
+}
+.green-bg{
+  border: solid hsl(171, 66%, 44%);
+  border-radius: 100px;
+  background-color: hsl(171, 66%, 44%);
+  padding: 1%;
+  color: white;
+  height: 15px;
+}
+.blue-bg{
+  border: solid hsl(233, 100%, 69%);
+  border-radius: 100px;
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+  height: 15px;
+  padding: 1%;
+}
